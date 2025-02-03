@@ -1,8 +1,8 @@
 install:
 	uv sync
 
-reinstall:
-	uv run --reinstall
+uninstall:
+	uv tool uninstall hexlet-code
 
 brain-games:
 	uv run brain-games
