@@ -6,5 +6,3 @@ dist/
 .coverage
 coverage.xml
 *_cache/
-hello.py
-uv.lock
