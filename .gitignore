@@ -1,6 +1,10 @@
-.venv/
-.python-version
+*.egg-info
+__pycache__
+dist/
+*.pyc
+.venv
+.coverage
+coverage.xml
+*_cache/
 hello.py
 uv.lock
-brain_games/__pycache__/
-brain_games/scripts/__pycache__/
