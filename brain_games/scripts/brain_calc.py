@@ -1,13 +1,12 @@
-import sys
+from brain_games import cli, engine
+from brain_games.games import calc
 
-sys.path.append('/home/fedorpc/projects/python-project-49/brain_games')
-from cli import greet, is_this_calculated_correctly, welcome_user
+question_prev = 'What is the result of the expression?'
 
 
 def main():
-    greet()
-    name = welcome_user()
-    is_this_calculated_correctly(name)
+    name = cli.welcome_user()
+    engine.game_play(name, question_prev, calc)
 
 
 if __name__ == '__main__':
