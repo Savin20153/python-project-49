@@ -2,8 +2,12 @@ import random
 
 import prompt
 
+from random import choice
+
+
 
 def welcome_user():
+    print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name)
     return name
@@ -65,8 +69,7 @@ def is_this_calculated_correctly(name):
     for i in range(3):
         num_one = random.randint(1, 100)
         num_two = random.randint(1, 100)
-        sign_ind = random.randint(0, 2)
-        sign = all_signs[sign_ind]
+        sign = choice(all_signs)
         expres_str = f'{num_one} {sign} {num_two}'
         print(f'Question: {expres_str}')
         expres_ans = eval(expres_str)
