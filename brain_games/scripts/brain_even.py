@@ -1,13 +1,12 @@
-import sys
+from brain_games import cli, engine
+from brain_games.games import even  # Исправлена ошибка с запятой
 
-sys.path.append('/home/fedorpc/projects/python-project-49/brain_games')
-from cli import greet, it_is_an_even_number, welcome_user
+question_prev = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def main():
-    greet()
-    name = welcome_user()
-    it_is_an_even_number(name)
+    name = cli.welcome_user()
+    engine.game_play(name, question_prev, even)  # Передаем модуль even в game_play
 
 
 if __name__ == '__main__':
