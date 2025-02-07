@@ -33,7 +33,7 @@ $ make build
 $ make package-install
 ```
 
-### Game: "Is a even number?"
+### Game: "Even number"
 
 [![asciicast](https://asciinema.org/a/i9vkJ0GSOL9CeRIDR7caLYgw3.svg)](https://asciinema.org/a/i9vkJ0GSOL9CeRIDR7caLYgw3)
 
@@ -51,12 +51,16 @@ $ make package-install
 
 [![asciicast](https://asciinema.org/a/jrmDSEyvcZR8GLpE6Nqjl2rd0.svg)](https://asciinema.org/a/jrmDSEyvcZR8GLpE6Nqjl2rd0)
 
-###Game : "https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF"
+### Game : "Missing in the Progression"
 
 [![asciicast](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF.svg)](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF)
 
 [![asciicast](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF.svg)](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF)
 
+### Gsme "Prime number"
 
+[1[asciicast](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw.svg)](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw)
+
+[![asciicast](https://asciinema.org/a/xsBUSqkPBKZDC76Xmo4vCq6Eq.svg)](https://asciinema.org/a/xsBUSqkPBKZDC76Xmo4vCq6Eq)
 
 
