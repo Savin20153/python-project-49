@@ -59,7 +59,7 @@ $ make package-install
 
 ### Gsme "Prime number"
 
-[1[asciicast](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw.svg)](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw)
+[![asciicast](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw.svg)](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw)
 
 [![asciicast](https://asciinema.org/a/xsBUSqkPBKZDC76Xmo4vCq6Eq.svg)](https://asciinema.org/a/xsBUSqkPBKZDC76Xmo4vCq6Eq)
 
