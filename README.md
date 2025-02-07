@@ -57,7 +57,7 @@ $ make package-install
 
 [![asciicast](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF.svg)](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF)
 
-### Gsme "Prime number"
+### Game "Prime number"
 
 [![asciicast](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw.svg)](https://asciinema.org/a/8NNlQPWUDVtBbSonFKXXySTCw)
 
