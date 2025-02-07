@@ -35,13 +35,21 @@ $ make package-install
 
 ### Game: "Is a even number?"
 
-[![asciicast](https://asciinema.org/a/YeCCnpWJcYCtXKXRv8yL8RTgg.svg)](https://asciinema.org/a/YeCCnpWJcYCtXKXRv8yL8RTgg)
+[![asciicast](https://asciinema.org/a/i9vkJ0GSOL9CeRIDR7caLYgw3.svg)](https://asciinema.org/a/i9vkJ0GSOL9CeRIDR7caLYgw3)
 
-[![asciicast](https://asciinema.org/a/owWwmL36lgTj3jYmG8V1X63Gb.svg)](https://asciinema.org/a/owWwmL36lgTj3jYmG8V1X63Gb)
+[![asciicast](https://asciinema.org/a/ot8swpxShSjugoSSr9FfSOGlS.svg)](https://asciinema.org/a/ot8swpxShSjugoSSr9FfSOGlS)
 
 ### Game: "Calculator"
 
-[![asciicast](https://asciinema.org/a/lEt3pI306WQyK9n5Seq0PqLhI.svg)](https://asciinema.org/a/lEt3pI306WQyK9n5Seq0PqLhI)
+[![asciicast](https://asciinema.org/a/9IkVClfvCC5RkfHQKQ0TSzXKw.svg)](https://asciinema.org/a/9IkVClfvCC5RkfHQKQ0TSzXKw)
 
-[![asciicast](https://asciinema.org/a/g7OuO2KnSqwABBibOkOKJOqWX.svg)](https://asciinema.org/a/g7OuO2KnSqwABBibOkOKJOqWX)
+[![asciicast](https://asciinema.org/a/8Lme8sh352ABSxeKMAsi3fvQr.svg)](https://asciinema.org/a/8Lme8sh352ABSxeKMAsi3fvQr)
+
+### Game: "Greatest common divisor"
+
+[![asciicast](https://asciinema.org/a/7Z2CgSEAyer4cBaOCjOBgL6Ab.svg)](https://asciinema.org/a/7Z2CgSEAyer4cBaOCjOBgL6Ab)
+
+[![asciicast](https://asciinema.org/a/jrmDSEyvcZR8GLpE6Nqjl2rd0.svg)](https://asciinema.org/a/jrmDSEyvcZR8GLpE6Nqjl2rd0)
+
+
 
