@@ -1,5 +1,6 @@
 import random
 
+
 def ques_num_and_ans():
     num_one = random.randint(1, 100)
     num_two = random.randint(1, 100)
