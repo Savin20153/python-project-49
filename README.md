@@ -1,6 +1,6 @@
 ### Mind games
 #### First project on Hexlet
-![First project on Hexlet](https://mindgames-productions.com/wp-content/uploads/2019/07/table-banner.png)
+![First project on Hexlet](https://wiltgenlab.faculty.ucdavis.edu/wp-content/uploads/sites/210/2017/04/brain-banner.jpg)
 
 "Mind games" is a set of five console games based on popular mobile apps for brain training.
 
@@ -50,6 +50,13 @@ $ make package-install
 [![asciicast](https://asciinema.org/a/7Z2CgSEAyer4cBaOCjOBgL6Ab.svg)](https://asciinema.org/a/7Z2CgSEAyer4cBaOCjOBgL6Ab)
 
 [![asciicast](https://asciinema.org/a/jrmDSEyvcZR8GLpE6Nqjl2rd0.svg)](https://asciinema.org/a/jrmDSEyvcZR8GLpE6Nqjl2rd0)
+
+###Game : "https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF"
+
+[![asciicast](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF.svg)](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF)
+
+[![asciicast](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF.svg)](https://asciinema.org/a/v9Dh5E7kgQz1HjSKeZjAL28BF)
+
 
 
 
