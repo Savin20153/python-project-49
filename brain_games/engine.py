@@ -10,7 +10,10 @@ def game_play(name, question_prev, game):
             print('Correct!')
             score += 1
         else:
-            print(f"'{user_ans}' is wrong answer ;(. Correct answer was '{right_ans}'.")
+            print(
+                f"'{user_ans}' is wrong answer ;(. "
+                f"Correct answer was '{right_ans}'."
+            )
             print(f"Let's try again, {name}!")
             break
     if score == 3:
