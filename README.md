@@ -1,3 +1,9 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Savin20153/python-project-49/actions/workflows/hexlet-check.yml/badge.svg](https://github.com/Savin20153/python-project-49/actions)
+
+### CodeClimate:
+[![Maintainability](https://api.codeclimate.com/v1/badges/5dbb3806ddfce57b5fd1/maintainability)](https://codeclimate.com/github/Savin20153/python-project-49/maintainability)
+
 ### Mind games
 #### First project on Hexlet
 ![First project on Hexlet](https://wiltgenlab.faculty.ucdavis.edu/wp-content/uploads/sites/210/2017/04/brain-banner.jpg)
