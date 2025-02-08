@@ -16,8 +16,8 @@ brain-calc:
 brain-gcd:
 	uv run brain-gcd
 
-brain-prg:
-	uv run brain-prg
+brain-progression:
+	uv run brain-progression
 	
 brain-prime:
 	uv run brain-prime
