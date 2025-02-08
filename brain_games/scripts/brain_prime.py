@@ -1,7 +1,7 @@
 from brain_games import cli, engine
 from brain_games.games import prime
 
-question_prev = 'What number is missing in the progression?'
+question_prev = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def main():
