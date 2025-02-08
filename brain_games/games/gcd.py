@@ -1,5 +1,7 @@
 import random
 
+QUESTION = 'Find the greatest common divisor of given numbers.'
+
 
 def ques_num_and_ans():
     num_one = random.randint(1, 100)

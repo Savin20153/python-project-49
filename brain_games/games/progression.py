@@ -1,5 +1,7 @@
 import random
 
+QUESTION = 'What number is missing in the progression?'
+
 
 def ques_num_and_ans():
     len_prog = random.randint(5, 15)
@@ -9,8 +11,8 @@ def ques_num_and_ans():
     for i in range(len_prog):
         num_prog = num_prog + prog_dif
         prog_list.append(num_prog)
-    ind_e1 = random.randint(0, len_prog - 1)  
+    ind_e1 = random.randint(0, len_prog - 1)
     right_ans = str(prog_list[ind_e1])
-    prog_list[ind_e1] = '..'
-    ques_num = ' '.join(map(str, prog_list))  
+    prog_list[ind_e1] = '...'
+    ques_num = ' '.join(map(str, prog_list))
     return ques_num, right_ans

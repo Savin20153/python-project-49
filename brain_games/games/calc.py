@@ -1,5 +1,7 @@
 import random
 
+QUESTION = 'What is the result of the expression?'
+
 
 def ques_num_and_ans():
     num_one = random.randint(1, 100)

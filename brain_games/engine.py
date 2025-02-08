@@ -1,9 +1,12 @@
+from brain_games import cli
 
-def game_play(name, question_prev, game):
-    print(question_prev)
+
+def game_play(QUESTION, game):
+    name = cli.welcome_user()
+    print(QUESTION)
     score = 0
     for _ in range(3):
-        ques_num, right_ans = game.ques_num_and_ans()  
+        ques_num, right_ans = game.ques_num_and_ans()
         print(f'Question: {ques_num}')
         user_ans = input('Your answer: ')
         if user_ans == right_ans:

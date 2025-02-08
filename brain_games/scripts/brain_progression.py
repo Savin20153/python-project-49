@@ -1,12 +1,9 @@
-from brain_games import cli, engine
-from brain_games.games import prg
-
-question_prev = 'What number is missing in the progression?'
+from brain_games import engine
+from brain_games.games import progression
 
 
 def main():
-    name = cli.welcome_user()
-    engine.game_play(name, question_prev, prg)
+    engine.game_play(progression.QUESTION, progression)
 
 
 if __name__ == '__main__':
