@@ -1,6 +1,5 @@
 from brain_games import cli
 
-
 def game_play(QUESTION, game):
     name = cli.welcome_user()
     print(QUESTION)
@@ -18,6 +17,6 @@ def game_play(QUESTION, game):
                 f"Correct answer was '{right_ans}'."
             )
             print(f"Let's try again, {name}!")
-            break
+            return
     if score == 3:
         print(f'Congratulations, {name}!')
