@@ -4,10 +4,8 @@ QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
 def ques_num_and_ans():
-    num_one = random.randint(1, 100)
-    num_two = random.randint(1, 100)
-    num_one_divs = []
-    num_two_divs = []
+    num_one, num_two = random.randint(1, 100), random.randint(1, 100)
+    num_one_divs, num_two_divs = [], []
     
     for div_one in range(1, num_one + 1):
         if num_one % div_one == 0:
