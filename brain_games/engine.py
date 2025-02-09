@@ -1,5 +1,6 @@
 from brain_games import cli
 
+
 def game_play(QUESTION, game):
     name = cli.welcome_user()
     print(QUESTION)
