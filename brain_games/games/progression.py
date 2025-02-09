@@ -13,6 +13,6 @@ def ques_num_and_ans():
         prog_list.append(num_prog)
     ind_e1 = random.randint(0, len_prog - 1)
     right_ans = str(prog_list[ind_e1])
-    prog_list[ind_e1] = '...'
+    prog_list[ind_e1] = '..'
     ques_num = ' '.join(map(str, prog_list))
     return ques_num, right_ans
