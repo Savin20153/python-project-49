@@ -2,17 +2,27 @@ import random
 
 QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
-def ques_num_and_ans():
-    ques_num = random.randint(1, 100)
+
+def is_prime(number):
     divs = []
-    for div_one in range(1, ques_num + 1):
-        if ques_num % div_one == 0:
-            divs.append(ques_num)
-    ques_num = str(ques_num)
+    for div_1 in range(1, number + 1):
+        if number % div_1 == 0:
+            divs.append(number)
     if len(divs) == 2:
-        right_ans = 'yes'
-        return ques_num, right_ans
+        return True
     else:
-        right_ans = 'no'
-        return ques_num, right_ans
+        return False
+
+
+def question_number_and_answer():
+    question_number = random.randint(MIN_NUMBER, MAX_NUMBER)
+    question_number = str(question_number)
+    if is_prime(int(question_number)):
+        right_answer = 'yes'
+        return question_number, right_answer
+    else:
+        right_answer = 'no'
+        return question_number, right_answer

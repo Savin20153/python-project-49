@@ -2,11 +2,21 @@ import random
 
 QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
-def ques_num_and_ans():
-    ques_num = random.randint(1, 100)  
-    if ques_num % 2 == 0:  
-        right_ans = 'yes'  
+
+def is_even(number):
+    if number % 2 == 0:
+        return True
     else:
-        right_ans = 'no'   
-    return ques_num, right_ans  
+        return False
+
+
+def question_number_and_answer():
+    question_number = random.randint(MIN_NUMBER, MAX_NUMBER)  
+    if is_even(question_number): 
+        right_answer = 'yes'  
+    else:
+        right_answer = 'no'   
+    return question_number, right_answer
