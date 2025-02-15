@@ -17,7 +17,7 @@ def is_prime(number):
         return False
 
 
-def question_number_and_answer():
+def question_and_answer():
     question_number = random.randint(MIN_NUMBER, MAX_NUMBER)
     question_number = str(question_number)
     if is_prime(int(question_number)):

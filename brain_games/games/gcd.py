@@ -7,7 +7,7 @@ MIN_NUMBER = 1
 MAX_NUMBER = 100
 
 
-def question_number_and_answer():
+def question_and_answer():
     number_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     number_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     right_answer = str(math.gcd(number_1, number_2))

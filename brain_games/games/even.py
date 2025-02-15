@@ -13,7 +13,7 @@ def is_even(number):
         return False
 
 
-def question_number_and_answer():
+def question_and_answer():
     question_number = random.randint(MIN_NUMBER, MAX_NUMBER)  
     if is_even(question_number): 
         right_answer = 'yes'  
