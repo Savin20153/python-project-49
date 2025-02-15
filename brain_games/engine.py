@@ -1,7 +1,9 @@
 import prompt
+
 from brain_games import cli
 
 NUMBER_OF_GAME_LAUNCERS = 3
+
 
 def game_play(run_game):
     name = cli.welcome_user()

@@ -5,6 +5,7 @@ QUESTION = 'What is the result of the expression?'
 MIN_NUMBER = 1
 MAX_NUMBER = 100
 
+
 def calculate(number_1, number_2, operation):
     if operation == '+':
         return number_1 + number_2
@@ -12,6 +13,7 @@ def calculate(number_1, number_2, operation):
         return number_1 - number_2
     else:
         return number_1 * number_2
+
 
 def question_and_answer():
     number_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
