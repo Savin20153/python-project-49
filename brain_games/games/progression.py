@@ -19,5 +19,5 @@ def question_and_answer():
     index_missing_number = random.randint(0, len_progression - 1)
     right_answer = str(progression_list[index_missing_number])
     progression_list[index_missing_number] = '..'
-    question_number = ' '.join(map(str, progression_list))
-    return question_number, right_answer
+    question = ' '.join(map(str, progression_list))
+    return question, right_answer

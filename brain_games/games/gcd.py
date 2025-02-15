@@ -11,5 +11,5 @@ def question_and_answer():
     number_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     number_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     right_answer = str(math.gcd(number_1, number_2))
-    question_number = f'{number_1} {number_2}' 
-    return question_number, right_answer
+    question = f'{number_1} {number_2}' 
+    return question, right_answer
