@@ -7,8 +7,10 @@ MAX_NUMBER = 100
 
 
 def is_prime(number):
-    for divisior in range(1, number):
-        if number % divisior == 0:
+    if number < 2:
+        return False
+    for division in range(2, int(number ** 0.5) + 1):
+        if number % division == 0:
             return False
     return True
 
