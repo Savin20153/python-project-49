@@ -7,17 +7,13 @@ MAX_NUMBER = 100
 
 
 def is_prime(number):
-    count_divs = 0
-    for div_1 in range(1, number + 1):
-        if number % div_1 == 0:
-            count_divs += 1
-    if count_divs == 2:
-        return True
-    else:
-        return False
+    for divisior in range(1, number):
+        if number % divisior == 0:
+            return False
+    return True
 
 
-def question_and_answer():
+def generate_question_and_answer():
     question_number = random.randint(MIN_NUMBER, MAX_NUMBER)
     question_number = str(question_number)
     if is_prime(int(question_number)):

@@ -8,7 +8,7 @@ MIN_NUMBER = 1
 MAX_NUMBER = 100
 
 
-def question_and_answer():
+def generate_question_and_answer():
     len_progression = random.randint(MIN_LEN_PROGRESSION, MAX_LEN_PROGRESSION)
     number_progression = random.randint(MIN_NUMBER, MAX_NUMBER)
     progression_difference = random.randint(MIN_NUMBER, MAX_NUMBER)

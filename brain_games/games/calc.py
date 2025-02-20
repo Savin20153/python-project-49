@@ -11,11 +11,11 @@ def calculate(number_1, number_2, operation):
         return number_1 + number_2
     elif operation == '-':
         return number_1 - number_2
-    else:
+    elif operation == '*':
         return number_1 * number_2
 
 
-def question_and_answer():
+def generate_question_and_answer():
     number_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     number_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     operation = random.choice(['+', '-', '*'])
